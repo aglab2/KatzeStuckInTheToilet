@@ -3394,7 +3394,7 @@ void select_mario_cam_mode(void) {
  */
 void create_camera(struct GraphNodeCamera *gc) {
 #ifdef FORCED_CAMERA_MODE
-    gc->config.mode = FORCED_CAMERA_MODE;
+    gc->config.mode = gCurrCourseNum != COURSE_SA ? FORCED_CAMERA_MODE : CAMERA_MODE_BEHIND_MARIO;
 #endif
     s16 mode = gc->config.mode;
     struct Camera *c = main_pool_alloc(sizeof(struct Camera));
