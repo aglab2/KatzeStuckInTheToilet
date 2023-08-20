@@ -46,4 +46,6 @@
 #include "levels/bitfs/seesaw_platform/geo.inc.c"
 #include "levels/bitfs/areas/1/geo.inc.c"
 
+#include "levels/bitfs/custom_09008cf0/custom.geo.inc.c"
+
 #include "levels/bitfs/geo.inc.c"

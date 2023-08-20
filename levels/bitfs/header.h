@@ -91,6 +91,8 @@ extern Movtex bitfs_movtex_tris_lava_floor[];
 extern const Gfx bitfs_dl_lava_sections[];
 extern const Gfx bitfs_dl_lava_floor[];
 
+extern const GeoLayout custom_DL_09008cf0[];
+
 // script
 extern const LevelScript level_bitfs_entry[];
 
