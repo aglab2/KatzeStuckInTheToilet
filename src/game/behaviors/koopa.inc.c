@@ -57,12 +57,26 @@ struct KoopaTheQuickProperties {
     Vec3s starPos;
 };
 
+#define TRAJECTORY_POS(trajId, x, y, z) \
+    trajId, x, y, z
+#define TRAJECTORY_END() \
+    -1
+
+
+static const Trajectory sTraj[] = {
+TRAJECTORY_POS(0x0000, -0x10000+0xFED1, 0x0000, -0x10000+0xE55C),
+TRAJECTORY_POS(0x0001, -0x10000+0xFC36, 0x003C, -0x10000+0xDAFD),
+TRAJECTORY_POS(0x0002, -0x10000+0xFC18, 0x037A, -0x10000+0xD0BC),
+TRAJECTORY_POS(0x0003, 0x0266, 0x0438, -0x10000+0xD151),
+TRAJECTORY_END(),
+};
+
 /**
  * Properties for the BoB race and the THI race.
  */
 static struct KoopaTheQuickProperties sKoopaTheQuickProperties[] = {
-    { DIALOG_005, DIALOG_007, bob_seg7_trajectory_koopa, { 3030, 4500, -4600 } },
-    { DIALOG_009, DIALOG_031, thi_seg7_trajectory_koopa, { 7100, -1300, -6000 } },
+    { DIALOG_005, DIALOG_007, sTraj, { 0x0266, 0x0640, -0x10000 + 0xD589 } },
+    { DIALOG_009, DIALOG_031, sTraj, { 7100, -1300, -6000 } },
 };
 
 /**
@@ -510,8 +524,7 @@ static void koopa_the_quick_act_show_init_text(void) {
         o->oForwardVel = 0.0f;
 
         o->parentObj = cur_obj_nearest_object_with_behavior(bhvKoopaRaceEndpoint);
-        o->oPathedStartWaypoint = o->oPathedPrevWaypoint =
-            segmented_to_virtual(sKoopaTheQuickProperties[o->oKoopaTheQuickRaceIndex].path);
+        o->oPathedStartWaypoint = o->oPathedPrevWaypoint = sKoopaTheQuickProperties[o->oKoopaTheQuickRaceIndex].path;
 
         o->oKoopaTurningAwayFromWall = FALSE;
         o->oFlags |= OBJ_FLAG_ACTIVE_FROM_AFAR;
@@ -606,7 +619,7 @@ static void koopa_the_quick_act_race(void) {
                     } else if (o->oKoopaTheQuickRaceIndex != KOOPA_THE_QUICK_BOB_INDEX) {
                         o->oKoopaAgility = 6.0f;
                     } else {
-                        o->oKoopaAgility = 4.0f;
+                        o->oKoopaAgility = 8.25f;
                     }
 
                     obj_forward_vel_approach(o->oKoopaAgility * 6.0f * downhillSteepness,
