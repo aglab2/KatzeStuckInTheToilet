@@ -1,12 +1,12 @@
-// 0x16000EA0
-const GeoLayout star_geo[] = {
-   GEO_SHADOW(SHADOW_CIRCLE_4_VERTS, 0x9B, 100),
-   GEO_OPEN_NODE(),
-      GEO_SCALE(0x00, 16384),
-      GEO_OPEN_NODE(),
-         GEO_DISPLAY_LIST(LAYER_OCCLUDE_SILHOUETTE_OPAQUE, star_seg3_dl_body),
-         GEO_DISPLAY_LIST(LAYER_OCCLUDE_SILHOUETTE_ALPHA, star_seg3_dl_eyes),
-      GEO_CLOSE_NODE(),
-   GEO_CLOSE_NODE(),
-   GEO_END(),
+#include "custom.model.inc.h"
+const GeoLayout star_geo[]= {
+GEO_SHADOW(1,155,100),
+GEO_OPEN_NODE(),
+GEO_SCALE(0,16384),
+GEO_OPEN_NODE(),
+GEO_DISPLAY_LIST(LAYER_ALPHA,DL_star_geo_0x3033c48),
+GEO_DISPLAY_LIST(LAYER_ALPHA,DL_star_geo_0x302ba18),
+GEO_CLOSE_NODE(),
+GEO_CLOSE_NODE(),
+GEO_END(),
 };
