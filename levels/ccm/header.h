@@ -53,8 +53,12 @@ extern const Gfx ccm_seg7_dl_070207F0[];
 extern const Collision ccm_seg7_area_2_collision[];
 extern const MacroObject ccm_seg7_area_2_macro_objs[];
 extern const Trajectory ccm_seg7_trajectory_penguin_race[];
+extern const GeoLayout bob_geo_000470[];
 
 // script
 extern const LevelScript level_ccm_entry[];
+
+
+#include "levels/ccm/header.inc.h"
 
 #endif
