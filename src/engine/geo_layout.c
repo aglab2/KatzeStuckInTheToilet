@@ -40,7 +40,7 @@ GeoLayoutCommandProc GeoLayoutJumpTable[] = {
     /*GEO_CMD_NODE_HELD_OBJ             */ geo_layout_cmd_node_held_obj,
     /*GEO_CMD_NODE_SCALE                */ geo_layout_cmd_node_scale,
     /*GEO_CMD_NOP_1E                    */ geo_layout_cmd_nop2,
-    /*GEO_CMD_NOP_1F                    */ geo_layout_cmd_node_cull,
+    /*GEO_CMD_NODE_CULL                 */ geo_layout_cmd_node_cull,
     /*GEO_CMD_NODE_CULLING_RADIUS       */ geo_layout_cmd_node_culling_radius,
     /*GEO_COIN      */                     geo_layout_cmd_coin,
 };
