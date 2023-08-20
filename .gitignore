@@ -1149,7 +1149,6 @@ sound/samples/sfx_mario/08_mario_whoa.aiff
 sound/samples/sfx_mario/09_mario_eeuh.aiff
 sound/samples/sfx_mario/0A_mario_attacked.aiff
 sound/samples/sfx_mario/0B_mario_ooof.aiff
-sound/samples/sfx_mario/0C_mario_here_we_go.aiff
 sound/samples/sfx_mario/0D_mario_yawning.aiff
 sound/samples/sfx_mario/0E_mario_snoring1.aiff
 sound/samples/sfx_mario/0F_mario_snoring2.aiff
@@ -1172,13 +1171,11 @@ sound/samples/sfx_mario_peach/03_mario_dying.aiff
 sound/samples/sfx_mario_peach/04_mario_on_fire.aiff
 sound/samples/sfx_mario_peach/05_mario_uh2.aiff
 sound/samples/sfx_mario_peach/06_mario_coughing.aiff
-sound/samples/sfx_mario_peach/07_mario_its_a_me_mario.aiff
 sound/samples/sfx_mario_peach/08_mario_punch_yah.aiff
 sound/samples/sfx_mario_peach/09_mario_punch_hoo.aiff
 sound/samples/sfx_mario_peach/0A_mario_mama_mia.aiff
 sound/samples/sfx_mario_peach/0B_mario_okey_dokey.aiff
 sound/samples/sfx_mario_peach/0C_mario_drowning.aiff
-sound/samples/sfx_mario_peach/0D_mario_thank_you_playing_my_game.aiff
 sound/samples/sfx_mario_peach/0E_peach_dear_mario.aiff
 sound/samples/sfx_mario_peach/0F_peach_mario.aiff
 sound/samples/sfx_mario_peach/10_peach_power_of_the_stars.aiff
