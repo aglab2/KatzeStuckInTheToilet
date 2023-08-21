@@ -417,7 +417,7 @@ void init_mario_after_warp(void) {
         }
 
         if (gMarioState->flags & (MARIO_VANISH_CAP | MARIO_WING_CAP)) {
-            play_cap_music(SEQUENCE_ARGS(4, SEQ_EVENT_POWERUP));
+            // play_cap_music(SEQUENCE_ARGS(4, SEQ_EVENT_POWERUP));
         }
 
 #ifdef ENABLE_VANILLA_LEVEL_SPECIFIC_CHECKS
