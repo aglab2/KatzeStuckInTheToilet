@@ -119,6 +119,7 @@ const LevelScript level_bitdw_entry[] = {
 		OBJECT(0, -257, 3259, 6151, 0, 0, 0, 0x80c0000, bhvWarp),
 		OBJECT(22, 1671, 3241, -6455, 0, 0, 0, 0xb0000, bhvWarpPipe),
 		TERRAIN(bitdw_area_1_collision),
+		SHOW_DIALOG(0, 0x32),
 		MACRO_OBJECTS(bitdw_area_1_macro_objs),
 		SET_BACKGROUND_MUSIC(0x00, 49),
 		TERRAIN_TYPE(TERRAIN_GRASS),

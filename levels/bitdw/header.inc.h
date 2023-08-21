@@ -59,6 +59,7 @@ extern Lights1 bitdw_dl_SM64_DL_bitdw_1_0xe030570_F3D_Mat_53_lights __attribute_
 extern Lights1 bitdw_dl_SM64_DL_bitdw_1_0xe030570_F3D_Mat_54_lights __attribute__((section(".data")));
 extern Lights1 bitdw_dl_SM64_DL_bitdw_1_0xe030570_F3D_Mat_55_lights __attribute__((section(".data")));
 extern Lights1 bitdw_dl_f3dlite_material_lights __attribute__((section(".data")));
+extern Lights1 bitdw_dl_f3dlite_material_001_lights __attribute__((section(".data")));
 extern Lights1 bitdw_dl_SM64_DL_bitdw_1_0xe035fb0_F3D_Mat_0_lights __attribute__((section(".data")));
 extern Lights1 bitdw_dl_SM64_DL_bitdw_1_0xe035fb0_F3D_Mat_1_lights __attribute__((section(".data")));
 extern Lights1 bitdw_dl_SM64_DL_bitdw_1_0xe035fb0_F3D_Mat_2_lights __attribute__((section(".data")));
@@ -98,6 +99,8 @@ extern u8 bitdw_dl_bitdw_1_0xe01d820_custom_rgba16_rgba16[] __attribute__((secti
 extern u8 bitdw_dl_bitdw_1_0xe015820_custom_rgba16_rgba16[] __attribute__((section(".data")));
 extern u8 bitdw_dl_bitdw_1_0xe016820_custom_rgba16_rgba16[] __attribute__((section(".data")));
 extern u8 bitdw_dl_segment2_13458_ia16_ia8[] __attribute__((section(".data")));
+extern u8 bitdw_dl_segment2_11C58_rgba16_ci8[] __attribute__((section(".data")));
+extern u8 bitdw_dl_segment2_11C58_rgba16_pal_rgba16[] __attribute__((section(".data")));
 extern u8 bitdw_dl_bitdw_1_0xe009820_custom_rgba16_rgba16[] __attribute__((section(".data")));
 extern u8 bitdw_dl_bitdw_1_0xe008820_custom_rgba16_rgba16[] __attribute__((section(".data")));
 extern u8 bitdw_dl_bitdw_1_0xe007820_custom_rgba16_rgba16[] __attribute__((section(".data")));
@@ -162,6 +165,7 @@ extern Vtx bitdw_dl_DL_bitdw_1_0xe030570_Obj_mesh_layer_1_vtx_54[86] __attribute
 extern Vtx bitdw_dl_DL_bitdw_1_0xe030570_Obj_mesh_layer_1_vtx_55[6] __attribute__((section(".data")));
 extern Vtx bitdw_dl_DL_bitdw_1_0xe030570_Obj_mesh_layer_5_vtx_cull[8] __attribute__((section(".data")));
 extern Vtx bitdw_dl_DL_bitdw_1_0xe030570_Obj_mesh_layer_5_vtx_0[6] __attribute__((section(".data")));
+extern Vtx bitdw_dl_DL_bitdw_1_0xe030570_Obj_mesh_layer_5_vtx_1[4] __attribute__((section(".data")));
 extern Vtx bitdw_dl_DL_bitdw_1_0xe035fb0_Obj_mesh_layer_4_vtx_cull[8] __attribute__((section(".data")));
 extern Vtx bitdw_dl_DL_bitdw_1_0xe035fb0_Obj_mesh_layer_4_vtx_0[18] __attribute__((section(".data")));
 extern Vtx bitdw_dl_DL_bitdw_1_0xe035fb0_Obj_mesh_layer_4_vtx_1[30] __attribute__((section(".data")));
