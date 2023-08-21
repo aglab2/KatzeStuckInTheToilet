@@ -197,10 +197,10 @@
 #define TEXT_COPY_FILE _("COPY FILE")
 #define TEXT_ERASE_FILE _("ERASE FILE")
 #define TEXT_SOUND_SELECT _("SOUND SELECT")
-#define TEXT_FILE_MARIO_A _("MARIO A")
-#define TEXT_FILE_MARIO_B _("MARIO B")
-#define TEXT_FILE_MARIO_C _("MARIO C")
-#define TEXT_FILE_MARIO_D _("MARIO D")
+#define TEXT_FILE_MARIO_A _("KATZE")
+#define TEXT_FILE_MARIO_B _("ASTA")
+#define TEXT_FILE_MARIO_C _("ZAKO")
+#define TEXT_FILE_MARIO_D _("LINK")
 
 // Menu Options
 #define TEXT_SCORE _("SCORE")
