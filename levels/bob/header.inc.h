@@ -265,12 +265,12 @@ extern Vtx bob_dl_DL_bob_1_0xe049e00_Obj_mesh_layer_1_vtx_96[4] __attribute__((s
 extern Vtx bob_dl_DL_bob_1_0xe049e00_Obj_mesh_layer_1_vtx_97[4] __attribute__((section(".data")));
 extern Vtx bob_dl_DL_bob_1_0xe056038_Obj_mesh_layer_4_vtx_cull[8] __attribute__((section(".data")));
 extern Vtx bob_dl_DL_bob_1_0xe056038_Obj_mesh_layer_4_vtx_0[46] __attribute__((section(".data")));
-extern Vtx bob_dl_DL_bob_1_0xe056038_Obj_mesh_layer_4_vtx_1[290] __attribute__((section(".data")));
+extern Vtx bob_dl_DL_bob_1_0xe056038_Obj_mesh_layer_4_vtx_1[287] __attribute__((section(".data")));
 extern Vtx bob_dl_DL_bob_1_0xe056038_Obj_mesh_layer_4_vtx_2[4] __attribute__((section(".data")));
 extern Vtx bob_dl_DL_bob_1_0xe056038_Obj_mesh_layer_4_vtx_3[4] __attribute__((section(".data")));
 extern Vtx bob_dl_DL_bob_1_0xe0566f8_Obj_mesh_layer_4_vtx_cull[8] __attribute__((section(".data")));
 extern Vtx bob_dl_DL_bob_1_0xe0566f8_Obj_mesh_layer_4_vtx_0[4] __attribute__((section(".data")));
-extern Vtx bob_dl_DL_bob_1_0xe0566f8_Obj_mesh_layer_4_vtx_1[67] __attribute__((section(".data")));
+extern Vtx bob_dl_DL_bob_1_0xe0566f8_Obj_mesh_layer_4_vtx_1[64] __attribute__((section(".data")));
 extern Vtx bob_dl_DL_bob_1_0xe0566f8_Obj_mesh_layer_4_vtx_2[8] __attribute__((section(".data")));
 extern Vtx bob_dl_DL_bob_1_0xe0566f8_Obj_mesh_layer_4_vtx_3[8] __attribute__((section(".data")));
 extern Vtx bob_dl_DL_bob_1_0xe0566f8_Obj_mesh_layer_4_vtx_4[4] __attribute__((section(".data")));
@@ -278,9 +278,9 @@ extern Vtx bob_dl_DL_bob_1_0xe0566f8_Obj_mesh_layer_4_vtx_5[4] __attribute__((se
 extern Vtx bob_dl_DL_bob_1_0xe0566f8_Obj_mesh_layer_4_vtx_6[4] __attribute__((section(".data")));
 extern Vtx bob_dl_DL_bob_1_0xe0566f8_Obj_mesh_layer_4_vtx_7[4] __attribute__((section(".data")));
 extern Vtx bob_dl_DL_bob_1_0xe0566f8_Obj_mesh_layer_5_vtx_cull[8] __attribute__((section(".data")));
-extern Vtx bob_dl_DL_bob_1_0xe0566f8_Obj_mesh_layer_5_vtx_0[83] __attribute__((section(".data")));
-extern Vtx bob_dl_DL_bob_1_0xe0566f8_Obj_mesh_layer_5_vtx_1[20] __attribute__((section(".data")));
-extern Vtx bob_dl_DL_bob_1_0xe0566f8_Obj_mesh_layer_5_vtx_2[80] __attribute__((section(".data")));
+extern Vtx bob_dl_DL_bob_1_0xe0566f8_Obj_mesh_layer_5_vtx_0[80] __attribute__((section(".data")));
+extern Vtx bob_dl_DL_bob_1_0xe0566f8_Obj_mesh_layer_5_vtx_1[26] __attribute__((section(".data")));
+extern Vtx bob_dl_DL_bob_1_0xe0566f8_Obj_mesh_layer_5_vtx_2[82] __attribute__((section(".data")));
 extern Gfx bob_dl_c_mesh_layer_1[] __attribute__((section(".data")));
 extern Gfx bob_dl_c1_mesh_layer_1[] __attribute__((section(".data")));
 extern Gfx bob_dl_DL_bob_1_0xe049e00_Obj_mesh_layer_1[] __attribute__((section(".data")));
