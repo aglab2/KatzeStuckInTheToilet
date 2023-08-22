@@ -438,6 +438,7 @@ extern Lights1 wf_dl_SM64_DL_wf_2_0xe0a91f8_F3D_Mat_3_lights __attribute__((sect
 extern Lights1 wf_dl_SM64_DL_wf_2_0xe0a91f8_F3D_Mat_18_lights __attribute__((section(".data")));
 extern Lights1 wf_dl_SM64_DL_wf_2_0xe0a91f8_F3D_Mat_26_lights __attribute__((section(".data")));
 extern Lights1 wf_dl_SM64_DL_wf_2_0xe0a91f8_F3D_Mat_27_lights __attribute__((section(".data")));
+extern Lights1 wf_dl_f3dlite_material_lights __attribute__((section(".data")));
 extern Lights1 wf_dl_SM64_DL_wf_3_0xe005000_F3D_Mat_0_lights __attribute__((section(".data")));
 extern Lights1 wf_dl_SM64_DL_wf_3_0xe005000_F3D_Mat_1_lights __attribute__((section(".data")));
 extern Lights1 wf_dl_SM64_DL_wf_3_0xe005000_F3D_Mat_2_lights __attribute__((section(".data")));
@@ -713,6 +714,8 @@ extern u8 wf_dl_wf_2_0xe012820_custom_rgba16_rgba16[] __attribute__((section(".d
 extern u8 wf_dl_wf_2_0xe03d020_custom_rgba16_rgba16[] __attribute__((section(".data")));
 extern u8 wf_dl_wf_2_0xe055020_custom_rgba16_rgba16[] __attribute__((section(".data")));
 extern u8 wf_dl_wf_2_0xe056020_custom_rgba16_rgba16[] __attribute__((section(".data")));
+extern u8 wf_dl_segment2_11C58_rgba16_ci8[] __attribute__((section(".data")));
+extern u8 wf_dl_segment2_11C58_rgba16_pal_rgba16[] __attribute__((section(".data")));
 extern u8 wf_dl_wf_3_0xe000018_custom_rgba16_rgba16[] __attribute__((section(".data")));
 extern u8 wf_dl_wf_3_0xe000820_custom_rgba16_rgba16[] __attribute__((section(".data")));
 extern u8 wf_dl_wf_3_0xe001020_custom_rgba16_rgba16[] __attribute__((section(".data")));
@@ -978,9 +981,10 @@ extern Vtx wf_dl_DL_wf_2_0xe0963a0_Obj_001_mesh_layer_4_vtx_10[4] __attribute__(
 extern Vtx wf_dl_DL_wf_2_0xe0963a0_Obj_001_mesh_layer_4_vtx_11[4] __attribute__((section(".data")));
 extern Vtx wf_dl_DL_wf_2_0xe0963a0_Obj_001_mesh_layer_4_vtx_12[4] __attribute__((section(".data")));
 extern Vtx wf_dl_DL_wf_2_0xe0963a0_Obj_001_mesh_layer_4_vtx_13[8] __attribute__((section(".data")));
-extern Vtx wf_dl_DL_wf_2_0xe0963a0_Obj_001_mesh_layer_4_vtx_14[572] __attribute__((section(".data")));
-extern Vtx wf_dl_DL_wf_2_0xe0963a0_Obj_001_mesh_layer_4_vtx_15[32] __attribute__((section(".data")));
-extern Vtx wf_dl_DL_wf_2_0xe0963a0_Obj_001_mesh_layer_4_vtx_16[8] __attribute__((section(".data")));
+extern Vtx wf_dl_DL_wf_2_0xe0963a0_Obj_001_mesh_layer_4_vtx_14[32] __attribute__((section(".data")));
+extern Vtx wf_dl_DL_wf_2_0xe0963a0_Obj_001_mesh_layer_4_vtx_15[8] __attribute__((section(".data")));
+extern Vtx wf_dl_DL_wf_2_0xe0963a0_Obj_001_mesh_layer_5_vtx_cull[8] __attribute__((section(".data")));
+extern Vtx wf_dl_DL_wf_2_0xe0963a0_Obj_001_mesh_layer_5_vtx_0[572] __attribute__((section(".data")));
 extern Vtx wf_dl_DL_wf_2_0xe0963a0_Obj_002_mesh_layer_1_vtx_cull[8] __attribute__((section(".data")));
 extern Vtx wf_dl_DL_wf_2_0xe0963a0_Obj_002_mesh_layer_1_vtx_0[4] __attribute__((section(".data")));
 extern Vtx wf_dl_DL_wf_2_0xe0963a0_Obj_002_mesh_layer_1_vtx_1[4] __attribute__((section(".data")));
@@ -1188,6 +1192,8 @@ extern Vtx wf_dl_DL_wf_2_0xe0963a0_Obj_004_mesh_layer_4_vtx_5[4] __attribute__((
 extern Vtx wf_dl_DL_wf_2_0xe0963a0_Obj_004_mesh_layer_4_vtx_6[34] __attribute__((section(".data")));
 extern Vtx wf_dl_DL_wf_2_0xe0963a0_Obj_004_mesh_layer_4_vtx_7[4] __attribute__((section(".data")));
 extern Vtx wf_dl_DL_wf_2_0xe0963a0_Obj_004_mesh_layer_4_vtx_8[4] __attribute__((section(".data")));
+extern Vtx wf_dl_DL_wf_2_0xe0963a0_Obj_004_mesh_layer_5_vtx_cull[8] __attribute__((section(".data")));
+extern Vtx wf_dl_DL_wf_2_0xe0963a0_Obj_004_mesh_layer_5_vtx_0[8] __attribute__((section(".data")));
 extern Vtx wf_dl_DL_wf_3_0xe005000_Obj_mesh_layer_1_vtx_cull[8] __attribute__((section(".data")));
 extern Vtx wf_dl_DL_wf_3_0xe005000_Obj_mesh_layer_1_vtx_0[212] __attribute__((section(".data")));
 extern Vtx wf_dl_DL_wf_3_0xe005000_Obj_mesh_layer_1_vtx_1[58] __attribute__((section(".data")));
@@ -1306,12 +1312,14 @@ extern Gfx wf_dl_DL_wf_2_0xe0963a0_Obj_mesh_layer_1[] __attribute__((section(".d
 extern Gfx wf_dl_DL_wf_2_0xe0963a0_Obj_mesh_layer_4[] __attribute__((section(".data")));
 extern Gfx wf_dl_DL_wf_2_0xe0963a0_Obj_001_mesh_layer_1[] __attribute__((section(".data")));
 extern Gfx wf_dl_DL_wf_2_0xe0963a0_Obj_001_mesh_layer_4[] __attribute__((section(".data")));
+extern Gfx wf_dl_DL_wf_2_0xe0963a0_Obj_001_mesh_layer_5[] __attribute__((section(".data")));
 extern Gfx wf_dl_DL_wf_2_0xe0963a0_Obj_002_mesh_layer_1[] __attribute__((section(".data")));
 extern Gfx wf_dl_DL_wf_2_0xe0963a0_Obj_002_mesh_layer_4[] __attribute__((section(".data")));
 extern Gfx wf_dl_DL_wf_2_0xe0963a0_Obj_003_mesh_layer_1[] __attribute__((section(".data")));
 extern Gfx wf_dl_DL_wf_2_0xe0963a0_Obj_003_mesh_layer_4[] __attribute__((section(".data")));
 extern Gfx wf_dl_DL_wf_2_0xe0963a0_Obj_004_mesh_layer_1[] __attribute__((section(".data")));
 extern Gfx wf_dl_DL_wf_2_0xe0963a0_Obj_004_mesh_layer_4[] __attribute__((section(".data")));
+extern Gfx wf_dl_DL_wf_2_0xe0963a0_Obj_004_mesh_layer_5[] __attribute__((section(".data")));
 extern Gfx wf_dl_DL_wf_3_0xe005000_Obj_mesh_layer_1[] __attribute__((section(".data")));
 extern Gfx wf_dl_DL_wf_4_0xe00c860_Obj_mesh_layer_1[] __attribute__((section(".data")));
 extern Gfx wf_dl_DL_wf_5_0xe01cc80_Obj_mesh_layer_1[] __attribute__((section(".data")));

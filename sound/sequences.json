@@ -20,7 +20,7 @@
     "11_level_koopa_road": ["19"],
 	"12_Seq_ksitt_custom": ["1F"],
     "13_event_merry_go_round": ["21"],
-	"14_Seq_ksitt_custom": ["1A"],
+	"14_Seq_ksitt_custom": ["0D"],
 	"15_Seq_ksitt_custom": ["0E"],
 	"16_Seq_ksitt_custom": ["25"],
 	"17_Seq_ksitt_custom": ["1A"],
@@ -47,7 +47,7 @@
 	"2C_Seq_ksitt_custom": ["11"],
 	"2D_Seq_ksitt_custom": ["11"],
 	"2E_Seq_ksitt_custom": ["25"],
-	"2F_Seq_ksitt_custom": ["0C_extended_bank"],
+	"2F_Seq_ksitt_custom": ["0C"],
 	"30_Seq_ksitt_custom": ["1A"],
 	"31_Seq_ksitt_custom": ["1A"]
 }
