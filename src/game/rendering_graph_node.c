@@ -779,8 +779,8 @@ void geo_process_cull(struct GraphNodeCull* node)
                 && node->z0 < gMarioStates->pos[2] && gMarioStates->pos[2] < node->z1;
     }
 
-    if (gMarioStates->floor && gMarioStates->floor->type == SURFACE_HARD && (2 & node->style))
-        return;
+    if (gCurrLevelNum == LEVEL_WF && gCamera->cutscene)
+        active = 1;
 
     if ((active ^ (1 & node->style)) && node->node.children != 0) {
         geo_process_node_and_siblings(node->node.children);
