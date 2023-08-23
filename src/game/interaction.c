@@ -976,21 +976,7 @@ u32 interact_warp_door(struct MarioState *m, UNUSED u32 interactType, struct Obj
 }
 
 u32 get_door_save_file_flag(struct Object *door) {
-    u32 saveFileFlag = 0;
-    s16 requiredNumStars = door->oBehParams >> 24;
-
-    s16 isCcmDoor = door->oPosX < 0.0f;
-    s16 isPssDoor = door->oPosY > 500.0f;
-
-    switch (requiredNumStars) {
-        case  1: saveFileFlag = (isPssDoor ? SAVE_FLAG_UNLOCKED_PSS_DOOR : SAVE_FLAG_UNLOCKED_WF_DOOR ); break;
-        case  3: saveFileFlag = (isCcmDoor ? SAVE_FLAG_UNLOCKED_CCM_DOOR : SAVE_FLAG_UNLOCKED_JRB_DOOR); break;
-        case  8: saveFileFlag = SAVE_FLAG_UNLOCKED_BITDW_DOOR;                                           break;
-        case 30: saveFileFlag = SAVE_FLAG_UNLOCKED_BITFS_DOOR;                                           break;
-        case 50: saveFileFlag = SAVE_FLAG_UNLOCKED_50_STAR_DOOR;                                         break;
-    }
-
-    return saveFileFlag;
+    return 0;
 }
 
 u32 interact_door(struct MarioState *m, UNUSED u32 interactType, struct Object *obj) {
