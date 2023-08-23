@@ -47,6 +47,7 @@ extern const BehaviorScript bhvKoopaShellUnderwater[];
 extern const BehaviorScript bhvExitPodiumWarp[];
 extern const BehaviorScript bhvFadingWarp[];
 extern const BehaviorScript bhvWarp[];
+extern const BehaviorScript bhxFixMarioInPlace[];
 extern const BehaviorScript bhvWarpPipe[];
 extern const BehaviorScript bhvWhitePuffExplosion[];
 extern const BehaviorScript bhvSpawnedStar[];

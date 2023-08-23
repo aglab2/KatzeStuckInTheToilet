@@ -880,6 +880,14 @@ const BehaviorScript bhvWarp[] = {
     END_LOOP(),
 };
 
+extern void bhv_fix_mario_in_place_loop();
+const BehaviorScript bhxFixMarioInPlace[] = {
+    BEGIN(OBJ_LIST_SPAWNER),
+    BEGIN_LOOP(),
+        CALL_NATIVE(bhv_fix_mario_in_place_loop),
+    END_LOOP(),
+};
+
 const BehaviorScript bhvWarpPipe[] = {
     BEGIN(OBJ_LIST_SURFACE),
     OR_INT(oFlags, (OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE)),

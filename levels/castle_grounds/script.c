@@ -69,6 +69,7 @@ const LevelScript level_castle_grounds_entry[] = {
 		MACRO_OBJECTS(castle_grounds_area_1_macro_objs),
 		SET_BACKGROUND_MUSIC(0x00, 39),
 		TERRAIN_TYPE(TERRAIN_GRASS),
+		SHOW_DIALOG(0, 0),
 		/* Fast64 begin persistent block [area commands] */
 		/* Fast64 end persistent block [area commands] */
 	END_AREA(),
@@ -80,6 +81,7 @@ const LevelScript level_castle_grounds_entry[] = {
 		WARP_NODE(10, LEVEL_BOB, 2, 0, WARP_NO_CHECKPOINT),
 		OBJECT(0, 0, 0, 0, 0, 0, 0, 0xa0000, bhvSpinAirborneWarp),
 		OBJECT(0, 0, -4950, 0, 0, 0, 0, 0xa000000, bhvWarp),
+		OBJECT(0, 0, -4950, 0, 0, 0, 0, 0xa000000, bhxFixMarioInPlace),
 		TERRAIN(castle_grounds_area_2_collision),
 		MACRO_OBJECTS(castle_grounds_area_2_macro_objs),
 		SET_BACKGROUND_MUSIC(0x00, 0),
