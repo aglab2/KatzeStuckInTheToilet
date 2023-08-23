@@ -3182,6 +3182,9 @@ void init_camera(struct Camera *c) {
     struct Surface *floor = NULL;
     Vec3f marioOffset;
     s32 i;
+    
+    if (gCurrCourseNum == COURSE_BOB)
+        s8DirModeBaseYaw = (0x9000 + gMarioStates->faceAngle[1]) & 0xE000;
 
     sCreditsPlayer2Pitch = 0;
     sCreditsPlayer2Yaw = 0;
