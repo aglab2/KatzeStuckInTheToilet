@@ -372,6 +372,8 @@ void thread3_main(UNUSED void *arg) {
     debug_initialize();
 #endif
 
+    SaveState_Init();
+
 #ifdef DEBUG
     osSyncPrintf("Super Mario 64\n");
 #if 0 // if your PC username isn't your real name feel free to uncomment
