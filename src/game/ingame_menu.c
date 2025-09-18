@@ -1947,7 +1947,8 @@ s32 render_pause_courses_and_castle(void) {
             break;
     }
 #if defined(WIDE) && !defined(PUPPYCAM)
-        render_widescreen_setting();
+        if (!Hacktice_gEnabled)
+            render_widescreen_setting();
 #endif
     if (gDialogTextAlpha < 250) {
         gDialogTextAlpha += 25;
